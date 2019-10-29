@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In_2015310908</title>
+  </head>
+  <body>
+    <h1>SIGN IN</h1>
+
+    <form action="result0918.html" method="gets">
+      <div>
+        <label for="name">NAME</label><br>
+        <input type="text" name="name" placeholder="your name please" value="">
+        <br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" placeholder="your password please"
+        required>
+        <br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" name="email" placeholder="your email please">
+        <br>
+        <label for="age">AGE</label><br>
+        <input type="number" name="age" min="1" max="200">
+        <br>
+        <label for="date">BIRTHDAY</label><br>
+        <input type="date" name="date" max="2019-09-18" min="1880-01-01">
+      </div>
+      <div>
+        <label for="gender">GENDER</label><br>
+        <select name="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="natural">natural</option>
+        </select>
+      </div>
+      <div>
+        <p>PROFILE IMAGE</p>
+        <input type="file" name="profileimg" accept="image/*">
+        <input type="submit" value="upload">
+      </div>
+      <div>
+        <p>FOOD PREFERENCES</p>
+        <input type="radio" name="Food Preferences" value="Whole Food"> Whole Food
+        <input type="radio" name="Food Preferences" value="Lacto-ovo"> Lacto-ovo
+        <input type="radio" name="Food Preferences" value="LACTO VEGETARIAN"> LACTO VEGETARIAN
+        <br><input type="radio" name="Food Preferences" value="OVO VEGETARIAN"> OVO VEGETARIAN
+        <input type="radio" name="Food Preferences" value="FLEXITARIAN"> FLEXITARIAN
+        <input type="radio" name="Food Preferences" value="POLLOTARIAN"> POLLOTARIAN
+        <br><input type="radio" name="Food Preferences" value="PESCATARIAN"> PESCATARIAN
+        <input type="radio" name="Food Preferences" value="VEGAN"> VEGAN
+        <input type="radio" name="Food Preferences" value="MUSLIM MEAL"> MUSLIM MEAL
+      </div>
+      <div>
+        <p>ALLERGIC INFORMATION></p>
+        <input type="checkbox" name="allergic info" value="peanut">peanut<br>
+        <img src="nopeanut.jpg" alt="nopeanut.jpg" height="80" width="80" align="absmiddle"><br>
+        <input type="checkbox" name="allergic info" value="seafood">seafood<br>
+        <img src="noseafood.jpg" alt="noseafood.jpg" height="80" width="80" align="absmiddle"><br>
+        <input type="checkbox" name="allergic info" value="fork">fork<br>
+        <input type="checkbox" name="allergic info" value="banana">banana<br>
+        <input type="checkbox" name="allergic info" value="apple">apple<br>
+      </div>
+      <div>
+        <p>MEMO</p>
+        <textarea name="more info" rows="8" cols="80">
+        PLEASE NOTE IF YOU WANT TO SAY SOMETHING TO US</textarea>
+      </div>
+      <div>
+        <br>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </body>
+</html>
