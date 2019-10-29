@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>2015310908_signup</title>
+  </head>
+  <body>
+    <form action="2015310908_result.html" method="gets">
+      <div>
+        <label for="name">NAME</label><br>
+        <input type="text" name="name" placeholder="your name please" value="">
+        <br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" name="password" placeholder="your password please"
+        required>
+        <br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" name="email" placeholder="your email please">
+        <br>
+        <label for="age">AGE</label><br>
+        <input type="number" name="age" min="1" max="200">
+        <br>
+        <label for="date">BIRTHDAY</label><br>
+        <input type="date" name="date" max="2019-09-18" min="1880-01-01">
+      </div>
+      <div>
+        <label for="gender">GENDER</label><br>
+        <select name="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="natural">natural</option>
+        </select>
+      </div>
+      <div>
+        <br>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+
+  </body>
+</html>
