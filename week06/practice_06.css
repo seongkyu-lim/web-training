@@ -1,0 +1,31 @@
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows: 200px 200px;
+  grid-template-areas:"side1 main main"
+  "side2 main main";
+  grid-gap:20px;
+}
+
+.card:nth-child(1){
+  grid-area:main;
+  color:red;
+  font-size:2rem;
+  grid-column:1/3;
+  grid-row:1/2;
+}
+.card:nth-child(2){
+  grid-area:main;
+  color:black;
+  font-size:2rem;
+  grid-column:1/2;
+  grid-row:2/3;
+}
+.card:nth-child(3){
+  grid-area:main;
+  color:blue;
+  font-size:2rem;
+  grid-column:2/3;
+  grid-row:2/3;
+}
