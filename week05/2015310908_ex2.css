@@ -1,0 +1,53 @@
+
+
+html, body{
+  height:100%;
+  margin:0;
+  width:1000px;
+}
+
+.wrapper{
+  min-height:100%;
+}
+.main {
+
+  float:left;
+  width:600px;
+  padding:20px;
+  padding-bottom:50px;
+}
+.main h4{
+  color:gray;
+}
+.email {
+  float:right;
+  width: 300px;
+  padding:20px;
+  padding-bottom:50px;
+}
+.id{
+  border: 2px solid gray;
+  padding: 5px;
+  color: gray;
+}
+.password{
+  border: 2px solid blue;
+  padding: 5px;
+  color: blue;
+}
+footer{
+  background-color:black;
+  height: 300px;
+  margin-top: -500px;
+  font-size: small;
+}
+.left{
+  float:left;
+}
+.mid{
+  text-align:center;
+}
+.right{
+  text-align:right;
+  margin:30px;
+}/*안올라감*/

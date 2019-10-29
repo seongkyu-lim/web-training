@@ -1,0 +1,35 @@
+body{
+  background-color:gray;
+}
+.wrapper{
+  width:2100px;
+  align-content: :center;
+}
+
+.html{
+  width:700px;
+  background-color: #c0dbe2;
+  border:3px solid blue;
+  padding:50px;
+  margin:50px;
+}
+
+.css{
+  width:700px;
+  background-color: #cdf1c3;
+  border:3px solid green;
+  padding:50px;
+  margin:50px;
+}
+
+.jsp{
+  width:700px;
+  background-color: #ccb9da;
+  border:3px solid red;
+  padding:50px;
+  margin:50px;
+}
+a{
+  color:red;
+  text-decoration: underline;
+}

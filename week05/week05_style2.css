@@ -1,0 +1,30 @@
+.wrapper{
+  width:800px;
+  align-content:center; /*가운데정렬 안됨.*/
+}
+
+header{
+    margin: auto;
+    padding:10px;
+    background-color: #0080ff;
+}
+
+footer{
+  background-color: gray;
+  text-align: center;
+  padding:1px;
+  clear:both;
+}
+.nav{
+  width:180px;
+  float:left;
+}
+.nav li{
+  list-style-type: none;
+}
+
+.main{
+  width:600px;
+  float:right;
+  font-size:1.5rem;
+}
