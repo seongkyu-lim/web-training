@@ -1,11 +1,10 @@
 let button = document.getElementById("btn");
-button.addEventListener("click",functionaName);
+button.addEventListener("click",functionName);
+let spanVariable = document.getElementById("message");
 
 
 //create a function to change spane contents
 
 function functionName(){
-  let spanVariable = document.getElementById("message")
-  spanVariable.innerHTML("message come from javascript");
-
+  spanVariable.innerHTML="message come from javascript";
 }
