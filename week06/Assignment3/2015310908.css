@@ -1,33 +1,52 @@
+html {
+  background-color: #808080;
+  font-family: sans-serif;
+
+}
 .list{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  font-family: fantasy;
+  box-shadow: 3px 3px 10px #666666;
 }
 .heading{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
+  color:white;
 }
 .membership{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .pro_membership{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
-.boxes{
-  box-shadow: 20px 10px 5px #666666;
+.analytics{
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .marketing{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .development{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .support{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .showcase2{
-  box-shadow: 20px 10px 5px #666666;
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
 }
 .showcase3{
+  background-color: #c0c0c0;
 
 }
 footer{
-
+  background-color:black;
+  text-align:center;
+  color:white;
 }
