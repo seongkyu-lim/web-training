@@ -6,5 +6,10 @@ let spanVariable = document.getElementById("message");
 //create a function to change spane contents
 
 function functionName(){
-  spanVariable.innerHTML="message come from javascript";
+  contents ="";
+  for(let i =0; i<10;i++){
+    let randomNumber = Math.floor(Math.random()*10)+1;
+    contents = contents + " " + randomNumber;
+  }
+  spanVariable.innerHTML=contents;
 }
