@@ -1,2 +1,6 @@
 var message = "Hello World";
-consle.log(message);
+
+let variable1 =2.8;
+let variable2 =0.2;
+
+alert(message.concat)
