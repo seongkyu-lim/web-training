@@ -1,49 +1,112 @@
 html {
   background-color: #808080;
   font-family: sans-serif;
-
 }
+.wrapper{
+  display: grid;
+  grid-gap:20px;
+}
+
 .list{
-  background-color: #c0c0c0;
   font-family: fantasy;
+  text-align: center;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  grid-auto-rows:25px;
+  grid-gap:15px;
+}
+.home{
+  background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+}
+.about{
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
+}
+.services{
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
+}
+.contact{
+  background-color: #c0c0c0;
+  box-shadow: 3px 3px 10px #666666;
+}
+
+.showcase{
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 250px;
 }
 .heading{
-  background-color: #c0c0c0;
+  display: flex;
+  flex-direction: column;
+  background-image: url(http://image.ibb.co/kYJK8x/showcase.jpg);
   box-shadow: 3px 3px 10px #666666;
   color:white;
+  grid-column: 1/3;
+  grid-row: 1/3;
 }
 .membership{
+  text-align: center;
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 .pro_membership{
+  text-align: center;
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.boxes{
+  text-align: center;
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 250px;
 }
 .analytics{
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column:1/2;
 }
 .marketing{
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column:2/3;
 }
 .development{
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column:3/4;
 }
 .support{
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  grid-column:4/5;
 }
 .showcase2{
   background-color: #c0c0c0;
   box-shadow: 3px 3px 10px #666666;
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 400px;
+}
+.image{
+  grid-column: 1/2;
+}
+.text{
+  grid-column: 2/3;
 }
 .showcase3{
   background-color: #c0c0c0;
-
+  display:grid;
+  grid-template-columns: repeat(auto-fill,250px);
+  grid-gap:15px;
 }
 footer{
   background-color:black;
