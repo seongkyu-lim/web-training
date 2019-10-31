@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In_2015310908</title>
+  </head>
+  <body>
+    <h1>SIGN IN</h1>
+
+      <div>
+        <h3>User Basic Information</h3><br>
+        <label for="name">NAME</label>
+        <input type="text" name="name" placeholder="your name please" value="">
+        <br>
+        <label for="password">PASSWORD</label>
+        <input type="password" name="password" placeholder="your password please"
+        required>
+        <br>
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" placeholder="your email please">
+        <br>
+        <label for="age">AGE</label>
+        <input type="number" name="age" min="1" max="200">
+        <br>
+        <label for="footsize">FOOTSIZE</label>
+        <input type="number" name="footsize" min="1" max="500">
+        <br>
+        <label for="date">BIRTHDAY</label>
+        <input type="date" name="date" max="2019-09-18" min="1880-01-01">
+      </div>
+      <div>
+        <label for="gender">GENDER</label>
+        <select name="gender">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="natural">none</option>
+        </select>
+      </div>
+      <div>
+        <p>Profile Image</p>
+        <input type="file" name="profileimg" accept="image/*">
+        <input type="submit" value="upload">
+      </div>
+      <br><br><br>
+      <div>
+        <h3>Score Average</h3><br>
+        <label for="mathscore">Math score</label>
+        <input type="text" name="mathscore">
+        <br>
+        <label for="Computer score">Computer score</label>
+        <input type="text" name="computerscore">
+        <br>
+        <label for="englishscore">English score</label>
+        <input type="text" name="englishscore0" >
+        <br>
+        <label for="biologyscore">Biology score</label>
+        <input type="text" name="biologyscore">
+        <br>
+        <label for="chemistryscore">Chemistry score</label>
+        <input type="text" name="chemistryscore">
+      </div>
+      <br><br>
+      <div>
+        <h3>Addiotional Information to Review Check Box</h3><br>
+        <p>Food Preferences</p><br>
+        <input type="radio" name="foodinfo" value="wholefood">Whole Food<br>
+        <input type="radio" name="foodinfo" value="Lacto-ovo">Lacto-ovo<br>
+        <input type="radio" name="foodinfo" value="Lactovegetarian">Lacto vegetarian<br>
+        <input type="radio" name="foodinfo" value="Ovo Vegetarian">Ovo Vegetarian<br>
+        <input type="radio" name="foodinfo" value="Flexitarian">Flexitarian<br>
+        <input type="radio" name="foodinfo" value="Pollotarian">Pollotarian<br>
+        <input type="radio" name="foodinfo" value="Pescatarian">Pescatarian<br>
+        <input type="radio" name="foodinfo" value="Vegan">Vegan<br>
+        <input type="radio" name="foodinfo" value="Muslim Meal">Muslim Meal<br>
+      </div>
+      <br><br>
+      <div>
+        <p>Allergic Information</p><br>
+        <img src="nopeanut.jpg" height ="80" width="80"><br>
+        <input type="checkbox" name="allergicinfo" value="peanut">Peanut<br>
+        <img src="noseafood.jpg" height ="80" width="80"><br>
+        <input type="checkbox" name="allergicinfo" value="seafood">Seafoods<br><br>
+      </div>
+      <div>
+        <textarea name="more info" rows="8" cols="80"></textarea>
+      </div>
+      <div>
+        <br>
+        <button type="button" name="hello" id="btn">RESET</button>
+        <span id="message"></span>
+        <button type="button" name="hello2" id="btn2">SUBMIT</button>
+        <script src="training_week07.js" type="text/javascript">
+
+        </script>
+      </div>
+  </body>
+</html>
