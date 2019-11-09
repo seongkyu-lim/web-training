@@ -1,12 +1,10 @@
-const mytextarea=document.getElementById('my-textarea');
-const remainingCharsText=document.getElementById('my-textarea-remaining-chars')
+const mytextarea = document.getElementById("my-textarea");
+const remainingCharsText = document.getElementById("my-textarea-remaining-chars");
+const MAX_CHARS = 300;
 
-var canvas = document.querySelector("canvas");
-
-const pageHeading = document.getElementById('heading1');
 
 mytextarea.addEventListener('input',()=>{
-  const remaing = MAX_CHARS - mytextarea.value.length;
-  console.log(remaing);
-  remainingCharsText.textContent=remaining + 'Character';
+  const remaining = MAX_CHARS - mytextarea.value.length;
+  console.log(remaining);
+  remainingCharsText.textContent = remaining + ' Characters remaining';
 })
