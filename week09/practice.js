@@ -1,13 +1,12 @@
-// var h1Tag = document.,getElementsByClassName('headTitle')
-// h1tag[0].innerHTML = 'welcome to JQuery Class '
+$('#btn').on('click', function(){
 
-$('headTitle').html('welcome to JQuery Class');
+var requestedData = new XMLHttpRequest();
+requestedData.open('GET','https://learnwebcode.github.io/json-example/animals-1.json');
+requestedData.onload = function(){
+  var data = JSON.parse(requestedData.responseText);
+$('.contents').html(data[0].name);
 
-$('.container h1').html ('welcome to JQuery Class');
 
-$('#btn').on('click', functionName);
-function functionName(){
-  $('headTitle').html('you pressed the button');
-  $('.headTitle').css('color','red');
-  $('#outside').toggle(2000);
-}
+};
+requestedData.send();
+});
